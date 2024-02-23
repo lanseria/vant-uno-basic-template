@@ -14,7 +14,7 @@
 
 - 🔥 Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
 
-- ✅ Use [Arco UI](https://arco.design/vue/docs/start) UI Framework
+- ✅ Use [Vant UI](https://vant-ui.github.io/vant/#/zh-CN/home) UI Framework
 
 - 🦾 TypeScript, of course
 
