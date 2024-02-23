@@ -1,0 +1,47 @@
+{
+  "name": "vant-uno-basic-template",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "keywords": [
+    "vitejs",
+    "vue3"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "lint": "eslint src --fix",
+    "preview": "vite preview",
+    "up": "taze major -I"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.8.0",
+    "vant": "^4.8.4",
+    "vue": "^3.4.19",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.4",
+    "@iconify-json/carbon": "^1.1.30",
+    "@types/node": "^20.11.20",
+    "@unocss/eslint-plugin": "^0.58.5",
+    "@unocss/reset": "^0.58.5",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-format": "^0.1.0",
+    "pnpm": "^8.15.3",
+    "taze": "^0.13.3",
+    "typescript": "^5.3.3",
+    "unocss": "^0.58.5",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.26.0",
+    "unplugin-vue-router": "^0.8.3",
+    "vite": "^5.1.4",
+    "vite-plugin-pages": "^0.32.0",
+    "vue-tsc": "^1.8.27"
+  }
+}
