@@ -19,5 +19,12 @@ declare module 'vue' {
     VanSearch: typeof import('vant/es')['Search']
     VanTabbar: typeof import('vant/es')['Tabbar']
     VanTabbarItem: typeof import('vant/es')['TabbarItem']
+    VarAppBar: typeof import('@varlet/ui')['_AppBarComponent']
+    VarBottomNavigation: typeof import('@varlet/ui')['_BottomNavigationComponent']
+    VarBottomNavigationItem: typeof import('@varlet/ui')['_BottomNavigationItemComponent']
+    VarButton: typeof import('@varlet/ui')['_ButtonComponent']
+    VarCell: typeof import('@varlet/ui')['_CellComponent']
+    VarInput: typeof import('@varlet/ui')['_InputComponent']
+    VarStyleProvider: typeof import('@varlet/ui')['_StyleProviderComponent']
   }
 }

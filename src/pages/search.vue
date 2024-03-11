@@ -4,7 +4,7 @@ const value = ref('')
 
 <template>
   <div>
-    <van-nav-bar title="搜索" />
-    <van-search v-model="value" placeholder="请输入搜索关键词" />
+    <var-app-bar title="搜索" />
+    <var-input v-model="value" placeholder="请输入文本" />
   </div>
 </template>

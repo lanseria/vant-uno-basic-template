@@ -1,5 +1,5 @@
 {
-  "name": "vant-uno-basic-template",
+  "name": "varlet-uno-basic-template",
   "type": "module",
   "version": "0.0.1",
   "private": true,
@@ -18,8 +18,8 @@
     "up": "taze major -I"
   },
   "dependencies": {
+    "@varlet/ui": "^3.1.2",
     "@vueuse/core": "^10.9.0",
-    "vant": "^4.8.5",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
@@ -29,6 +29,7 @@
     "@types/node": "^20.11.25",
     "@unocss/eslint-plugin": "^0.58.5",
     "@unocss/reset": "^0.58.5",
+    "@varlet/import-resolver": "^3.1.2",
     "@vitejs/plugin-vue": "^5.0.4",
     "@vitejs/plugin-vue-jsx": "^3.1.0",
     "eslint": "^8.57.0",

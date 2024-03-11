@@ -7,7 +7,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Unocss from 'unocss/vite'
-import { VantResolver } from 'unplugin-vue-components/resolvers'
+import { VarletImportResolver } from '@varlet/import-resolver'
 import VueRouter from 'unplugin-vue-router/vite'
 
 export default ({ mode }: ConfigEnv): UserConfig => {
@@ -48,7 +48,7 @@ export default ({ mode }: ConfigEnv): UserConfig => {
 
       // https://github.com/antfu/unplugin-auto-import
       AutoImport({
-        resolvers: [VantResolver()],
+        resolvers: [VarletImportResolver({ autoImport: true })],
         imports: [
           'vue',
           'vue-router',
@@ -65,7 +65,7 @@ export default ({ mode }: ConfigEnv): UserConfig => {
       Components({
         dts: true,
         resolvers: [
-          VantResolver(),
+          VarletImportResolver(),
         ],
       }),
 

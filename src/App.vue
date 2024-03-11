@@ -1,22 +1,20 @@
 <script setup lang="ts">
+const router = useRouter()
+const active = ref('/')
+function handleChange(active: any) {
+  router.push(active)
+}
 </script>
 
 <template>
-  <VanConfigProvider :theme="theme">
+  <var-style-provider>
     <main text="gray-700 dark:gray-200">
       <RouterView />
-      <van-tabbar route>
-        <van-tabbar-item replace to="/" icon="home-o">
-          首页
-        </van-tabbar-item>
-        <van-tabbar-item replace to="/search" icon="search">
-          搜索
-        </van-tabbar-item>
-
-        <van-tabbar-item replace to="/setting" icon="setting-o">
-          配置
-        </van-tabbar-item>
-      </van-tabbar>
+      <var-bottom-navigation v-model:active="active" @change="handleChange">
+        <var-bottom-navigation-item name="/" label="首页" icon="home" />
+        <var-bottom-navigation-item name="search" label="搜索" icon="magnify" />
+        <var-bottom-navigation-item name="setting" label="设置" icon="heart" />
+      </var-bottom-navigation>
     </main>
-  </VanConfigProvider>
+  </var-style-provider>
 </template>

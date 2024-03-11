@@ -1,4 +1,4 @@
-# Vant Uno Basic Template
+# Varlet Uno Basic Template
 
 ## Features
 
@@ -14,7 +14,7 @@
 
 - 🔥 Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
 
-- ✅ Use [Vant UI](https://vant-ui.github.io/vant/#/zh-CN/home) UI Framework
+- ✅ Use [Varlet UI](https://varlet.gitee.io/varlet-ui/#/en-US/index) UI Framework
 
 - 🦾 TypeScript, of course
 
